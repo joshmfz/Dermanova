@@ -20,4 +20,4 @@ A. Instalación de Sass
 B. Comentarios
 
   1. Los comentarios que explican cada parte de los archivos serán añadidos en el plazo de 24 horas desde el push de esa rama
-  2. Los comentarios no afetarán al comportamiento del sistema
+  2. Los comentarios no afectarán al comportamiento del sistema
