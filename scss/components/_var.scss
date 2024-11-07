@@ -1,0 +1,112 @@
+/* Var.scss */
+//Variables
+$Fuente1: 'Calibri', sans-serif;
+$Fuente2: 'Calibri', sans-serif;
+$c1: #582562;
+$c2: #70b934;
+$c3: #f2f2f2;
+$cv: #00000080;
+
+// @mixin titulos($fuente) {
+// 	@if $fuente == $Fuente1 {
+// 		font-family: $Fuente1;
+// 		text-transform: uppercase;
+// 		font-weight: 700;
+// 		font-size: 3.6rem;
+
+// 		@media screen and (max-width: 768px) {
+// 			font-size: 2rem;
+// 		}
+// 	} 
+// 	@else {
+// 		font-family: $Fuente2;
+// 		font-size: 1rem;
+
+// 		@media screen and (max-width: 768px) {
+// 			font-size: 1.5rem;
+// 		}
+// 	}
+// }
+@mixin titulos($fuente) {
+	@if $fuente == $Fuente1 {
+		font-family: $Fuente1;
+		// text-transform: uppercase;
+		font-weight: 700;
+		font-size: 3.6rem;
+
+		@media screen and (max-width: 768px) {
+			font-size: 2rem;
+		}
+	} 
+}
+@mixin textos($fuente) {
+	@if $fuente == $Fuente2 {
+		font-family: $Fuente2;
+		font-weight: Bold;
+		font-size: 2rem;
+
+		@media screen and (max-width: 768px) {
+			font-size: 1.5rem;
+		}
+	}
+}
+
+@font-face {
+  font-family: 'Calibri'; /* Nombre personalizado de la tipografía */
+  src: url('../../assets/Calibri.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+	font-size: 62.5%;
+}
+
+.container {
+	background-color: $c3;
+	display: flex;
+	height: 100vh;
+}
+
+body, p, a, span, div, button{
+	@include textos($Fuente2);
+		margin: 0;
+}
+
+header{
+  position: sticky;
+}
+
+section {
+	margin: 0 auto;
+	padding: 0 5px;
+}
+
+h1, h2{
+	@include titulos($Fuente1);
+}
+
+h2{
+	margin-left: 12vw;
+}
+
+//svg{ }
+
+// button{
+// 	display: block;
+// 	padding: 10px 16px;
+// 	color: $c1;
+// 	background-color: $c1;
+// 	border: $c1 1px solid;
+// 	border-radius: 26px;
+	
+// 	// &:hover{
+
+// 	// 	box-shadow: 0 0 3px 5px $c2;
+// 	// }
+
+// 	@media screen and (max-width: 768px) {
+// 		padding: 5px 8px;
+// 	/* Var.scss */
+// 	}
+// }

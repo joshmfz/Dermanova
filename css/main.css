@@ -1,0 +1,589 @@
+@charset "UTF-8";
+/* Var.scss */
+@font-face {
+  font-family: "Calibri"; /* Nombre personalizado de la tipografía */
+  src: url("../../assets/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+}
+
+body, p, a, span, div, button {
+  font-family: "Calibri", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  body, p, a, span, div, button {
+    font-size: 1.5rem;
+  }
+}
+
+header {
+  position: sticky;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+h1, h2 {
+  font-family: "Calibri", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+@media screen and (max-width: 768px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  margin-left: 12vw;
+}
+
+/* Var.scss */
+@font-face {
+  font-family: "Calibri"; /* Nombre personalizado de la tipografía */
+  src: url("../../assets/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+}
+
+body, p, a, span, div, button {
+  font-family: "Calibri", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  body, p, a, span, div, button {
+    font-size: 1.5rem;
+  }
+}
+
+header {
+  position: sticky;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+h1, h2 {
+  font-family: "Calibri", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+@media screen and (max-width: 768px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  margin-left: 12vw;
+}
+
+:root {
+  --white: #f2f2f2;
+  --black: #582562;
+  --very-light-pink:#f2f2f2;
+  --text-input-field:#f2f2f2;
+  --hospital-green: #582562;
+}
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #f2f2f2;
+}
+
+div .logo {
+  height: 20vh;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+}
+
+.title-l {
+  font-family: "Calibri", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  margin: 0;
+  color: #582562;
+  text-align: center;
+  margin-right: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .title-l {
+    font-size: 2rem;
+  }
+}
+
+.title-a {
+  margin-bottom: 2rem;
+  justify-self: left;
+  text-align: left;
+}
+
+.title-sub {
+  color: var(--very-light-pink);
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 76vh;
+}
+
+.form-c {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  justify-items: center;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form a {
+  color: var(--hospital-green);
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 52px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.login-s {
+  height: 20vh;
+}
+
+.label {
+  color: #582562;
+  margin-bottom: 0.25rem;
+  font-family: "Calibri", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .label {
+    font-size: 1.5rem;
+  }
+}
+
+.value {
+  background-color: var(--text-input-field);
+  border-radius: 20px;
+  height: 2rem;
+  width: 100%;
+  padding: 0.25rem;
+  margin: 0.5rem 0 2rem 0;
+}
+
+.input {
+  background-color: #f2f2f2;
+  border: solid 5px #582562;
+  border-radius: 20px;
+  height: 3rem;
+  padding: 0.25rem;
+  margin-bottom: 2rem;
+}
+
+.input-email, .input-name, .input-password {
+  margin-bottom: 3rem;
+  font-family: "Calibri", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .input-email, .input-name, .input-password {
+    font-size: 1.5rem;
+  }
+}
+
+.primary-btn {
+  color: var(--white);
+  background-color: var(--hospital-green);
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn {
+  margin-top: 14px;
+  margin-bottom: 30px;
+  font-family: "Calibri", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .login-btn {
+    font-size: 1.5rem;
+  }
+}
+
+.secondary-btn {
+  color: var(--hospital-green);
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  width: 160px;
+}
+
+.secondary-btn a {
+  text-decoration: none;
+  color: #582562;
+}
+
+.signup-btn {
+  position: fixed;
+  box-sizing: border-box;
+  padding: 1.6rem 1.6rem;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login */
+/* Var.scss */
+@font-face {
+  font-family: "Calibri"; /* Nombre personalizado de la tipografía */
+  src: url("../../assets/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+}
+
+body, p, a, span, div, button {
+  font-family: "Calibri", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  body, p, a, span, div, button {
+    font-size: 1.5rem;
+  }
+}
+
+header {
+  position: sticky;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+h1, h2 {
+  font-family: "Calibri", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+@media screen and (max-width: 768px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  margin-left: 12vw;
+}
+
+.main-e {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-e {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 30vh;
+}
+
+.icon-e img {
+  max-width: 20rem;
+}
+
+.title-e {
+  font-family: "Calibri", sans-serif;
+  font-weight: 700;
+  font-size: 6.4rem;
+  margin: 0;
+  color: #582562;
+  text-align: center;
+}
+
+.title-a {
+  margin-bottom: 2rem;
+  justify-self: left;
+  text-align: left;
+}
+
+/* Var.scss */
+@font-face {
+  font-family: "Calibri"; /* Nombre personalizado de la tipografía */
+  src: url("../../assets/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+}
+
+body, p, a, span, div, button {
+  font-family: "Calibri", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  body, p, a, span, div, button {
+    font-size: 1.5rem;
+  }
+}
+
+header {
+  position: sticky;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+h1, h2 {
+  font-family: "Calibri", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+@media screen and (max-width: 768px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  margin-left: 12vw;
+}
+
+/* Menu.scss */
+/* Menu.scss */
+.content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  font-family: "Calibri", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  background-color: #582562;
+  color: #f2f2f2;
+  font-weight: bold;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 36px;
+  width: 30vw;
+  height: 80px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 6vw;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    font-size: 2rem;
+  }
+}
+.card:hover {
+  background-color: #2C1231;
+  /* Menu.scss */
+}
+
+/* Var.scss */
+@font-face {
+  font-family: "Calibri"; /* Nombre personalizado de la tipografía */
+  src: url("../../assets/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+}
+
+body, p, a, span, div, button {
+  font-family: "Calibri", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  body, p, a, span, div, button {
+    font-size: 1.5rem;
+  }
+}
+
+header {
+  position: sticky;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+h1, h2 {
+  font-family: "Calibri", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+@media screen and (max-width: 768px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  margin-left: 12vw;
+}
+
+/* Sidebar.scss */
+.sidebar {
+  background-color: #582562;
+  width: 250px;
+  height: 100%;
+  color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 10vh;
+}
+
+.logo .icon {
+  margin: 5px;
+  height: max-content;
+  width: 48px;
+  max-height: 48px;
+}
+
+.logo .title {
+  font-size: 3.6rem;
+  font-weight: 200;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between; /* Distribuye icono y texto a los lados */
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.menu-item .icon {
+  margin: 5px;
+  height: max-content;
+  width: 48px;
+}
+
+.menu-item.active {
+  background-color: rgba(0, 0, 0, 0.5019607843);
+}
+
+.menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  /* Sidebar.scss */
+}
+
+.menu-item .text {
+  flex-grow: 1; /* Expande el texto al máximo espacio disponible */
+  font-size: 2rem;
+  text-align: center; /* Centra el texto */
+}
+
+/*# sourceMappingURL=main.css.map */
