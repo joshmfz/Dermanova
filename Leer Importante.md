@@ -7,8 +7,11 @@ A. Instalación de Sass
      En terminal, instalar "npm install", enter y espera
      "npm init -y", enter y espera
      "npm install sass --save-dev", enter y espera
-  
-  3. Al finalizar la instalación de paquetería, correr el comando "npm run sass", lo que mostrará:
+
+
+     Si al momento de "npm install" aparece que PowerShell no admite scripts. Mirar el video a continuación: https://m.youtube.com/watch?v=gm0gexHWDy0&pp=ygVRdmlzdWFsIHN0dWRpbyBjb2RlIC0gbGEgZWplY3VjacOzbiBkZSBzY3JpcHRzIGVzdMOhIGRlc2hhYmlsaXRhZGEgZW4gZXN0ZSBzaXN0ZW1h
+     
+  4. Al finalizar la instalación de paquetería, correr el comando "npm run sass", lo que mostrará:
     > dermanova@1.0.0 sass
     > sass --watch scss/main.scss:css/main.css
     
