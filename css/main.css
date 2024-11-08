@@ -5,7 +5,7 @@
 
 */
 /* 
-  @import "./var";
+	@import "./var";
 
 	Esta propiedad se usa en la parte inicial de todos los documentos _sass.scss
 	Significa que importa todos los estilos aquí almacenados
@@ -616,7 +616,7 @@ h2 {
   height: 10vh;
 }
 
-.logo .icon {
+.logo .icon img {
   margin: 5px;
   height: max-content;
   width: 48px;
@@ -650,8 +650,13 @@ h2 {
 
 .menu-item .icon {
   margin: 5px;
+}
+
+.icon img {
   height: max-content;
-  width: 48px;
+  width: auto;
+  max-height: 48px;
+  max-width: 48px;
 }
 
 .menu-item.active {

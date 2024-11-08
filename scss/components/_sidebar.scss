@@ -27,7 +27,7 @@
     height: 10vh;
 }
 
-.logo .icon {
+.logo .icon img{
     margin: 5px;
     height: max-content;
     width: 48px;
@@ -62,8 +62,13 @@
 
 .menu-item .icon {
     margin: 5px;
+}
+
+.icon img{
     height: max-content;
-    width: 48px;
+    width: auto;
+    max-height: 48px;
+    max-width: 48px;
 }
 
 .menu-item.active {
