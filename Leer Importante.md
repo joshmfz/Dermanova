@@ -26,3 +26,5 @@ B. Comentarios
   2. Los comentarios no afectarán al comportamiento del sistema
 
 C. Angie Pull, etupida
+	Jomshua
+D. Así que un push
