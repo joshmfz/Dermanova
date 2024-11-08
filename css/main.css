@@ -1,5 +1,17 @@
 @charset "UTF-8";
-/* Var.scss */
+/* 
+
+	Var.scss 
+
+*/
+/* 
+  @import "./var";
+
+	Esta propiedad se usa en la parte inicial de todos los documentos _sass.scss
+	Significa que importa todos los estilos aquí almacenados
+	Esta propiedad fue modificada y en un año será defasada, funciona, pero puede dar un warning
+
+*/
 @font-face {
   font-family: "Calibri"; /* Nombre personalizado de la tipografía */
   src: url("../../assets/Calibri.ttf") format("truetype");
@@ -52,7 +64,19 @@ h2 {
   margin-left: 12vw;
 }
 
-/* Var.scss */
+/* 
+
+	Var.scss 
+
+*/
+/* 
+	@import "./var";
+
+	Esta propiedad se usa en la parte inicial de todos los documentos _sass.scss
+	Significa que importa todos los estilos aquí almacenados
+	Esta propiedad fue modificada y en un año será defasada, funciona, pero puede dar un warning
+
+*/
 @font-face {
   font-family: "Calibri"; /* Nombre personalizado de la tipografía */
   src: url("../../assets/Calibri.ttf") format("truetype");
@@ -105,14 +129,11 @@ h2 {
   margin-left: 12vw;
 }
 
-:root {
-  --white: #f2f2f2;
-  --black: #582562;
-  --very-light-pink:#f2f2f2;
-  --text-input-field:#f2f2f2;
-  --hospital-green: #582562;
-}
+/*
 
+    LOGIN
+
+*/
 .login {
   width: 100%;
   height: 100vh;
@@ -152,7 +173,7 @@ div .logo {
 }
 
 .title-sub {
-  color: var(--very-light-pink);
+  color: #f2f2f2;
   margin-top: 0;
   margin-bottom: 2rem;
   text-align: center;
@@ -178,7 +199,7 @@ div .logo {
 }
 
 .form a {
-  color: var(--hospital-green);
+  color: #582562;
   text-align: center;
   text-decoration: none;
   margin-bottom: 52px;
@@ -204,7 +225,7 @@ div .logo {
 }
 
 .value {
-  background-color: var(--text-input-field);
+  background-color: #f2f2f2;
   border-radius: 20px;
   height: 2rem;
   width: 100%;
@@ -234,8 +255,8 @@ div .logo {
 }
 
 .primary-btn {
-  color: var(--white);
-  background-color: var(--hospital-green);
+  color: #f2f2f2;
+  background-color: #582562;
   width: 100%;
   height: 50px;
   border-radius: 20px;
@@ -257,7 +278,7 @@ div .logo {
 }
 
 .secondary-btn {
-  color: var(--hospital-green);
+  color: #582562;
   background-color: #f2f2f2;
   border: none;
   cursor: pointer;
@@ -280,8 +301,24 @@ div .logo {
   justify-content: center;
 }
 
-/* Login */
-/* Var.scss */
+/* 
+
+    LOGIN
+
+*/
+/* 
+
+	Var.scss 
+
+*/
+/* 
+	@import "./var";
+
+	Esta propiedad se usa en la parte inicial de todos los documentos _sass.scss
+	Significa que importa todos los estilos aquí almacenados
+	Esta propiedad fue modificada y en un año será defasada, funciona, pero puede dar un warning
+
+*/
 @font-face {
   font-family: "Calibri"; /* Nombre personalizado de la tipografía */
   src: url("../../assets/Calibri.ttf") format("truetype");
@@ -334,6 +371,11 @@ h2 {
   margin-left: 12vw;
 }
 
+/*
+
+    ERROR
+
+*/
 .main-e {
   width: 100%;
   height: 100vh;
@@ -369,7 +411,24 @@ h2 {
   text-align: left;
 }
 
-/* Var.scss */
+/*
+
+    ERROR
+
+*/
+/* 
+
+	Var.scss 
+
+*/
+/* 
+	@import "./var";
+
+	Esta propiedad se usa en la parte inicial de todos los documentos _sass.scss
+	Significa que importa todos los estilos aquí almacenados
+	Esta propiedad fue modificada y en un año será defasada, funciona, pero puede dar un warning
+
+*/
 @font-face {
   font-family: "Calibri"; /* Nombre personalizado de la tipografía */
   src: url("../../assets/Calibri.ttf") format("truetype");
@@ -422,8 +481,11 @@ h2 {
   margin-left: 12vw;
 }
 
-/* Menu.scss */
-/* Menu.scss */
+/* 
+
+    MENU 
+
+*/
 .content {
   flex: 1;
   padding: 20px;
@@ -460,7 +522,24 @@ h2 {
   /* Menu.scss */
 }
 
-/* Var.scss */
+/* 
+
+    MENU 
+
+*/
+/* 
+
+	Var.scss 
+
+*/
+/* 
+	@import "./var";
+
+	Esta propiedad se usa en la parte inicial de todos los documentos _sass.scss
+	Significa que importa todos los estilos aquí almacenados
+	Esta propiedad fue modificada y en un año será defasada, funciona, pero puede dar un warning
+
+*/
 @font-face {
   font-family: "Calibri"; /* Nombre personalizado de la tipografía */
   src: url("../../assets/Calibri.ttf") format("truetype");
@@ -513,7 +592,11 @@ h2 {
   margin-left: 12vw;
 }
 
-/* Sidebar.scss */
+/* 
+
+    SIDEBAR
+
+*/
 .sidebar {
   background-color: #582562;
   width: 250px;
@@ -577,7 +660,6 @@ h2 {
 
 .menu-item:hover {
   background-color: rgba(0, 0, 0, 0.5019607843);
-  /* Sidebar.scss */
 }
 
 .menu-item .text {
@@ -585,5 +667,11 @@ h2 {
   font-size: 2rem;
   text-align: center; /* Centra el texto */
 }
+
+/* 
+
+    SIDEBAR
+
+*/
 
 /*# sourceMappingURL=main.css.map */

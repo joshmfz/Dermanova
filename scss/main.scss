@@ -1,8 +1,11 @@
-@use "components/var";
-@use "components/login";
-@use "components/error";
+@use "components/var";      // Estilos generales de los elementos y variables de entorno
+@use "components/login";    // Estilos de login y signup
+@use "components/error";    // Estilos de blank
+
+@use "components/menu";     // Estilos del menu
+@use "components/sidebar";  // estilos del sidebar
+
+
+//@use "components/footer";
 //@use "components/items";
 //@use "components/nav";
-@use "components/menu";
-@use "components/sidebar";
-//@use "components/footer";
