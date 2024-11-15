@@ -9,7 +9,7 @@
 .sidebar {
     background-color: $c1; 
     width: 250px;
-    height: 100%;
+    height: auto;
     color: $c3;
     padding: 20px;
     display: flex;
@@ -40,7 +40,7 @@
 }
 
 // Seccion de Botones
-.menu {
+.sidebar-menu {
     list-style: none;
     padding: 0;
     margin: 0;

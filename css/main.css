@@ -64,6 +64,11 @@ h2 {
   margin-left: 12vw;
 }
 
+a {
+  text-decoration: none;
+  color: #582562;
+}
+
 /* 
 
 	Var.scss 
@@ -127,6 +132,11 @@ h1, h2 {
 
 h2 {
   margin-left: 12vw;
+}
+
+a {
+  text-decoration: none;
+  color: #582562;
 }
 
 /*
@@ -285,11 +295,6 @@ div .logo {
   width: 160px;
 }
 
-.secondary-btn a {
-  text-decoration: none;
-  color: #582562;
-}
-
 .signup-btn {
   position: fixed;
   box-sizing: border-box;
@@ -369,6 +374,11 @@ h1, h2 {
 
 h2 {
   margin-left: 12vw;
+}
+
+a {
+  text-decoration: none;
+  color: #582562;
 }
 
 /*
@@ -481,12 +491,164 @@ h2 {
   margin-left: 12vw;
 }
 
+a {
+  text-decoration: none;
+  color: #582562;
+}
+
+/*
+
+    CITAS
+
+*/
+.container {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+  align-items: flex-start; /* Alineación arriba */
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+.arrow {
+  border: none;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: flex; /* Alineación con flexbox si es necesario */
+  align-self: center;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5019607843)) 0%, #f2f2f2;
+}
+
+.a-l {
+  margin-left: 0;
+}
+
+.a-r {
+  right: 2.4rem;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}
+
+.card-list {
+  color: #f2f2f2;
+  background-color: #582562;
+  padding: 20px;
+  width: 150px;
+  height: auto;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.imported-item {
+  border: 1px solid #70b934;
+  margin-bottom: 0.5rem;
+  width: 160px;
+  height: 80px;
+  border-radius: 16px;
+  transition: 0.2s ease-out;
+}
+
+.imported-item:hover {
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  border: #f2f2f2 1px solid;
+}
+
+/*
+
+    CITAS
+
+*/
+/* 
+
+	Var.scss 
+
+*/
+/* 
+	@import "./var";
+
+	Esta propiedad se usa en la parte inicial de todos los documentos _sass.scss
+	Significa que importa todos los estilos aquí almacenados
+	Esta propiedad fue modificada y en un año será defasada, funciona, pero puede dar un warning
+
+*/
+@font-face {
+  font-family: "Calibri"; /* Nombre personalizado de la tipografía */
+  src: url("../../assets/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+}
+
+body, p, a, span, div, button {
+  font-family: "Calibri", sans-serif;
+  font-weight: Bold;
+  font-size: 2rem;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  body, p, a, span, div, button {
+    font-size: 1.5rem;
+  }
+}
+
+header {
+  position: sticky;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+h1, h2 {
+  font-family: "Calibri", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+}
+@media screen and (max-width: 768px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  margin-left: 12vw;
+}
+
+a {
+  text-decoration: none;
+  color: #582562;
+}
+
 /* 
 
     MENU 
 
 */
-.content {
+.menu {
   flex: 1;
   padding: 20px;
   display: flex;
@@ -500,14 +662,14 @@ h2 {
   font-family: "Calibri", sans-serif;
   font-weight: 700;
   font-size: 3.6rem;
-  background-color: #582562;
   color: #f2f2f2;
+  background-color: #582562;
   font-weight: bold;
   border: none;
   padding: 15px 40px;
   border-radius: 36px;
   width: 30vw;
-  height: 80px;
+  height: 40px;
   text-align: center;
   cursor: pointer;
   margin-right: 6vw;
@@ -592,6 +754,11 @@ h2 {
   margin-left: 12vw;
 }
 
+a {
+  text-decoration: none;
+  color: #582562;
+}
+
 /* 
 
     SIDEBAR
@@ -600,7 +767,7 @@ h2 {
 .sidebar {
   background-color: #582562;
   width: 250px;
-  height: 100%;
+  height: auto;
   color: #f2f2f2;
   padding: 20px;
   display: flex;
@@ -628,7 +795,7 @@ h2 {
   font-weight: 200;
 }
 
-.menu {
+.sidebar-menu {
   list-style: none;
   padding: 0;
   margin: 0;

@@ -7,7 +7,7 @@
 
 */
 // Contenedor del Menu
-.content {
+.menu {
     flex: 1;
     padding: 20px;
     display: flex;
@@ -20,8 +20,8 @@
 // Botones Principales
 .card {
     @include titulos($Fuente1);
-    background-color: $c1;
     color: $c3;
+    background-color: $c1;
 
     font-weight: bold;
     border: none;
@@ -29,7 +29,7 @@
     // border: $c2 5px solid;
     border-radius: 36px;
     width: 30vw;
-    height: 80px;
+    height: 40px;
     text-align: center;
     cursor: pointer;
     margin-right: 6vw;
