@@ -7,15 +7,10 @@
     
     <title>Dermanova</title>
     <link rel="stylesheet" href="/css/main.css">
+    <script src="main.js"></script>
     <link rel="icon" type="image/svg" href="./assets/morado-i.svg" />
 </head>
 <body>
-
-    <Header></Header>
-
-    <Main></Main>
-    
-    <Footer></Footer>
     <main class="container">
         <!-- <header>
             <nav>
@@ -38,48 +33,51 @@
             </nav>
         </header> -->
         <section class="sidebar">
-            <div class="logo">
-                <span class="icon">
-                    <img src="assets/blanco.png" alt="">
-                </span>
-                <span class="title">Dermanova</span>
-            </div>
-            <ul class="sidebar-menu">
-                <li class="menu-item active">
+            <a href="./index.html">
+                <div class="logo">
                     <span class="icon">
                         <img src="assets/blanco.png" alt="">
                     </span>
-                    <span class="text">Home</span>
-                </li>
-                <li class="menu-item">
-                    <span class="icon">
-                        <img src="assets/mask.png" alt="">
-                    </span>
-                    <span class="text">Centro Estético</span>
-                </li>
-                <li class="menu-item">
-                    <span class="icon">
-                        <img src="assets/pedicure.png" alt="">
-                    </span>
-                    <span class="text">Pedicure Clínico</span>
-                </li>
-                <li class="menu-item">
-                    
-                    <span class="icon">
-                        <img src="assets/exit.png" alt="">
-                    </span>
-                    <span class="text">Salir</span>
-                    
-                </li>
-                <a href="./pages/login.html" onclick="window.open(this.href, '_blank'); return false;">Login/Register</a>
+                    <span class="title">Dermanova</span>
+                </div>
+            </a>
+            <ul class="sidebar-menu">
+                <a href="./index.html">
+                    <li class="menu-item active"> 
+                        <!-- La clase active oscurece los botones -->
+                        <span class="icon">
+                            <img src="assets/blanco.png" alt="">
+                        </span>
+                        <span class="text">Home</span>
+                    </li>
+                </a>
+                <a href="./pages/cronograma.html">
+                    <li class="menu-item">
+                        <span class="icon">
+                            <img src="assets/mask.png" alt="">
+                        </span>
+                        <span class="text">Cronograma</span>
+                    </li>
+                </a>
+                <a href="./pages/expedientes.html">
+                    <li class="menu-item">
+                        <span class="icon">
+                            <img src="assets/pedicure.png" alt="">
+                        </span>
+                        <span class="text">Expedientes</span>
+                    </li>
+                </a>
             </ul>
+            <a href="./pages/login.html" onclick="window.open(this.href, '_blank'); return false;">Login</a>
+            
         </section>
 
         <section class="menu">
-            <a href="./pages/citas.html"><div class="card">Citas</div></a>
-            <a href="./pages/clientes.html"><div class="card">Clientes</div></a>
             <a href="./pages/usuarios.html"><div class="card">Usuarios</div></a>
+            <a href="./pages/clientes.html"><div class="card">Clientes</div></a>
+            <a href="./pages/regalias.html"><div class="card">Regalias</div></a>
         </section>
     </main>    
+    <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dermanova</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" type="image/svg" href="../assets/morado-i.svg" />
+    
+</head>
+<body>
+    <main class="container">
+        <section class="sidebar">
+            <a href="../index.html">
+                <div class="logo">
+                    
+                    <span class="icon">
+                        <img src="../assets/blanco.png" alt="">
+                    </span>
+                    <span class="title">Dermanova</span>
+                </div>
+            </a>
+            <ul class="sidebar-menu">
+                <a href="../index.html">
+                    <li class="menu-item">
+                        <!-- La clase active oscurece los botones -->
+                        <span class="icon">
+                            <img src="../assets/blanco.png" alt="">
+                        </span>
+                        <span class="text">Home</span>
+                    </li>
+                </a>
+                <a href="./cronograma.html">
+                    <li class="menu-item active">
+                        <span class="icon">
+                            <img src="../assets/mask.png" alt="">
+                        </span>
+                        <span class="text">Cronograma</span>
+                    </li>
+                </a>
+                <a href="./expedientes.html">
+                    <li class="menu-item">
+                        <span class="icon">
+                            <img src="../assets/pedicure.png" alt="">
+                        </span>
+                        <span class="text">Expedientes</span>
+                    </li>
+                </a>
+                
+                <a href="./login.html" onclick="window.open(this.href, '_blank'); return false;">Login</a>
+            </ul>
+        </section>
+
+        <section id="content" class="content">
+            <section class="slider">
+                <div class="card-list">
+                    <div class="day-bar">Lunes</div>
+                    <div class="card-item">
+                        <div onclick="mosss()" class="imported-item">01 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">08 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">15 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">22 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">29 <br>-------------------<br></div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <div class="day-bar">Martes</div>
+                    <div class="card-item">
+                        <div onclick="mosss()" class="imported-item">02 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">09 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">16 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">23 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">30 <br>-------------------<br></div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <div class="day-bar">Miércoles</div>
+                    <div class="card-item">
+                        <div onclick="mosss()" class="imported-item">03 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">10 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">17 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">24 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">31 <br>-------------------<br></div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <div class="day-bar">Jueves</div>
+                    <div class="card-item">
+                        <div onclick="mosss()" class="imported-item">04 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">11 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">18 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">25 <br>-------------------<br></div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <div class="day-bar">Viernes</div>
+                    <div class="card-item">
+                        <div onclick="mosss()" class="imported-item">05 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">12 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">19 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">26 <br>-------------------<br></div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <div class="day-bar">Sábado</div>
+                    <div class="card-item">
+                        <div onclick="mosss()" class="imported-item">06 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">13 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">20 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">27 <br>-------------------<br></div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <div class="day-bar">Domingo</div>
+                    <div class="card-item">
+                        <div onclick="mosss()" class="imported-item">07 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">14 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">21 <br>-------------------<br></div>
+                        <div onclick="mosss()" class="imported-item">28 <br>-------------------<br></div>
+                    </div>
+                </div>
+            </section>            
+        </section>
+
+        <section id="formulario-datos" class="form-data">
+            <div class="form-data-line">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="out-b" onclick="out()">
+                    <span class="icon">
+                        <img src="../assets/exit.svg" alt="">
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>   
+
+    <script src="../main.js"></script>
+</body>
+</html>

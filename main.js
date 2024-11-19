@@ -1,19 +1,35 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const sliderContainers = document.querySelectorAll('.slider-container');
+// Cronograma
 
-    sliderContainers.forEach((container) => {
-        const slider = container.querySelector('.slider');
-        const arrowLeft = container.querySelector('.a-l');
-        const arrowRight = container.querySelector('.a-r');
+    // Abrir Tabla de Citas
+    function mosss() {
+        // Selecciona el div con el id "formulario-datos"
+        const formularioDatos = document.getElementById('formulario-datos');
+        
+        // Cambia el estilo para que se muestre
+        formularioDatos.style.display = 'flex';
+    }
 
-        let containerWidth = slider.getBoundingClientRect().width;
+    // Cerrar Tabla de Citas
+    function out() {
+        // Selecciona el div con el id "formulario-datos"
+        const formularioDatos = document.getElementById('formulario-datos');
+        
+        // Cambia el estilo para que se oculte
+        formularioDatos.style.display = 'none';
+    }
 
-        arrowLeft.addEventListener('click', () => {
-            slider.scrollLeft -= containerWidth;
-        });
-
-        arrowRight.addEventListener('click', () => {
-            slider.scrollLeft += containerWidth;
-        });
+    //  Scroll Horizontal
+    
+        // Selecciona el div con el id "content"
+    const contentElement = document.getElementById('content');
+    
+        // Se activa cuando el usuario gire la rueda del ratón
+    contentElement.addEventListener('wheel', (event) => {
+        if (event.deltaY !== 0) {
+            // Evita el desplazamiento vertical y desplaza horizontalmente
+            event.preventDefault();
+            contentElement.scrollLeft += event.deltaY;
+        }
     });
-});
+
+// Otro HTML
